@@ -1,0 +1,1274 @@
+
+/************************************************************/
+/*-------------------  GENERALE  -----------------*/
+/************************************************************/
+
+body {
+    background-color: #E0FFFF;
+    text-align: justify;
+    font-size: 14px;
+    font-family: cursive;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+     }
+
+
+header {
+   background-color: #000033;
+   width: 100%;
+   height: 100%;
+  }
+
+
+
+form {
+ font-style: italic;
+ box-sizing: border-box;
+ width: 90%;
+ line-height: 2em;
+ display: block;
+ position:relative ;
+ margin-left: 2%;
+}
+
+
+
+label {
+  display: block;
+  box-sizing: border-box;
+  width: 80%;
+ }
+
+
+input[type=password] {
+ display: block;
+ box-sizing: border-box;
+ width: 60%;
+ height: auto;
+ padding: 10px;
+ margin-left: 15px;
+ margin-top: 15px;
+ margin-right: 15px;
+ border: 2px solid black;
+}
+
+
+
+input[type=text] {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 15px;
+  width: 70%;
+  resize: vertical;
+}
+
+
+input[type=email] {
+  display: block;
+ box-sizing: border-box;
+ width: 80%;
+ height: auto;
+ padding: 10px;
+ margin-left: 15px;
+ margin-top: 15px;
+ margin-right: 15px;
+ border: 2px solid black;
+}
+
+
+input[type=radio] {
+  padding: 20px;
+  margin: 10px;
+}
+
+
+input[type=date] {
+ box-sizing: border-box;
+ border-width: medium;
+ width: 25%;
+ padding: 10px;
+ margin: 15px; 
+ border: 1px solid black;
+}
+
+
+iframe{
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+}
+
+
+
+select {
+  margin: 20px;
+}
+
+
+
+
+ .logo {
+   display: block;
+   width: 20%;
+   height: 5%;
+   margin-left: 40%;
+   padding-top: 5px;
+   }
+
+
+
+  /*contenitore principale */
+  .container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+   .container p {
+      margin-right: 10pt;
+      margin-left: 10pt;
+
+   }
+
+  /*Contenitore di chiedimi di bingo */
+  .container_border {
+   	 width: 80%;
+     height: auto;
+      margin-left: 10%;
+     box-sizing: border-box;
+   	 border-style: ridge;
+     border-width: medium;
+       border-radius: 20pt;
+   	 border-color: gray;
+     margin-bottom: 10px; 
+       background-color: white;
+   
+   }
+  
+
+  .container_border p {
+      margin-right: 10pt;
+      margin-left: 10pt;
+    }
+
+ /**********************************************/
+ /*-------------MENU A TENDINA ----------------*/
+ /**********************************************/
+ #hormenu {
+ margin-top: 5px;
+ margin-bottom:5px;
+ width: 70px;
+ height: 100%;
+ float: left;
+ box-sizing: border-box;
+ border-color: black;
+ border-style: groove;
+ border-width: medium;
+ background-color: #D3D3D3;
+ }
+
+
+ #hormenu img {
+ width: 65px;
+ height: 45px;
+ margin-right: 5px;
+ margin-bottom: 15px;
+ margin-top: 7px;
+ }
+
+
+
+#hormenu ul
+ {
+  padding-top: 0px;
+ padding-right: 10px;
+ width: auto;
+ height: auto;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+}
+
+#hormenu li
+{
+ width: auto;
+ height: 65px;
+line-height: 3em;
+float:left;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color:black;
+}
+
+#hormenu a {																																		
+display: block;
+width: 100%;
+height: 100%;
+color: #000;
+text-decoration: none;
+}
+
+
+#hormenu a:hover {
+background-color: #DAA520;
+color: black;
+text-decoration: none;
+}
+
+
+#hormenu li ul {
+display: none
+}
+
+
+#hormenu li:hover ul {
+display: block;
+position: absolute;
+z-index:1;
+width:160px;
+padding: 0;
+margin: 0 0 0 -1px;
+border:1px solid black;
+background: white;
+}
+
+
+
+#hormenu li li { border:none; width:170px; }
+
+#hormenu li li a { padding:2px 2px 2px 10px; }
+
+
+
+#avviso p {
+  color: red ;
+  text-decoration-style: solid;
+  font-size: 0.85em;
+}
+
+
+.registrazione {
+  width: 70%;
+  height: auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: medium;
+  border-style: groove;
+  border-radius: 15px;
+  background-color: white;
+
+}
+
+ .titolo  {
+ 	 font-size: 28pt;
+ 	 text-align: center;
+     text-decoration-color: blue;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .esempio { 
+   text-align: center;
+ }
+ 
+
+ 
+/************************************************************
+*-------------------  SERVIZIO CLIENTI  -----------------*
+************************************************************/
+ .servizio {
+  width: 70%;
+  text-align: left;
+  font-size: 1.20em;
+  position: relative;
+  display: block;
+ }
+
+ .servizio h3 {
+  margin-left: 2%;
+ }
+ 
+ .servizio img {
+   width: 15%; 
+   height: 15%;
+   margin: 2%;  
+   float: left;
+   display: block;
+ }
+
+
+ .choice {
+  box-sizing: border-box;
+  border-style: groove;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: medium;
+  text-align: left;
+  width: 35%;
+  margin: 20px;
+  background-color: #00CED1;
+
+}
+
+.choice label {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#serv label{ 
+  font-size: 13pt;
+}
+
+#contatore {
+  width: 6%;
+  height: 2%;
+  border: 3px solid black;   
+  padding: 10px; 
+}
+
+  textarea {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 15px;
+  width: 60%;
+  resize: vertical;
+}
+ /************************************************************/
+/*--------------TERMINI E CONDIZIONI ------------------------*/
+/************************************************************/
+
+.terminiCondizioni {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  text-align: center;
+ }
+
+
+#richiesta {
+  height: auto;
+  width:  20%;
+  color: #000;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #00b300;
+   box-sizing: border-box;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+ }
+
+ /************************************************************/
+/*----------------------- lOGIN ----------------------------*/
+/************************************************************/
+
+  .benvenuti_login {
+  	width:  30%;
+  	height: 100%;
+   
+   display: block;
+   float: left;
+   color: black;
+  }
+
+
+  .login_container {
+    width: 100%;
+    background-color: white;
+    height: 100%;
+    position: relative;
+    display: block;
+    }
+
+
+  .benvenuti_login {
+    width: 35%;
+    height: 100%;
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    float: left;
+  }
+ 
+
+  .benvenuti_login img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+
+  }
+  
+  .benvenuti_login p {
+    margin-left: 10%;
+   }
+
+  .benvenuti_login h2 {
+    margin-left: 10%;
+  }
+
+  .login_form {
+   width: 50%;
+   height: 100%;
+   text-align: center;
+   background-color: white;
+   box-sizing: border-box;
+   border: 4px outset black;
+   border-radius: 10px;
+   box-shadow: 10px 15px #888888;
+   position: relative;
+   float: left; 
+   margin-top: 5%;
+   margin-left:  10%;
+   margin-right: 5%;
+   margin-bottom: 20%;
+
+
+  }
+
+  .login_form label {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  .login_form input[type=password] {
+    width: 100%;
+    margin: 3% 0 0 0;
+    box-sizing: border-box;
+   border: 2px solid black;
+  } 
+  
+  .login_form input[type=text] {
+    width: 100%;
+   margin: 3% 0 0 0;
+   border: 2px solid black;
+  } 
+
+  .login_form h4 {
+    width: 20%;
+    margin-left: 38%;
+    margin-right: 40%;
+  }
+
+  .login_form button {
+    width: 140px;
+    height: 60px;
+    box-sizing: border-box;
+    color: black;
+    font-size: 12pt;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px #888888;
+    background-color: #00b300;
+  }
+
+  .login_form button a {
+    text-decoration-line: none;
+    color: black;
+  }
+
+  #login_buttons {
+    margin: 5%;
+    margin-bottom: 0%;
+  }
+
+  #login_newAccount {
+    margin: 0% 0% 5% 0%;
+    padding: 10px;
+  }
+ 
+
+/************************************************************/
+/*--------------- REGISTRAZIONE ----------------------------*/
+/************************************************************/
+
+ .benvenuti_registrazione {
+  font-family: "times new roman";
+  width: 100%;
+  height: 100%;
+  margin-left: 2%;
+  position: relative;
+  line-height: 3em;
+ }
+
+.benvenuti_registrazione a {
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  color: #000;
+}
+
+.benvenuti_registrazione button {
+  background-color: #00b300;
+  color: #000;
+  width: 10%;
+  margin-left: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px; 
+}
+
+.benvenuti_registrazione_titolo {
+  text-align: center;
+}
+
+
+
+#messaggio_username0 {
+  width: 100%;
+  position: relative;
+  color: red;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_username1 {
+ width: 100%;
+  position: relative;
+  color: green;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_date0 {
+  width: 100%;
+  position: relative;
+  color: red;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_date1 {
+  width: 100%;
+  position: relative;
+  color: green;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_password0 {
+  width: 100%;
+  position: relative;
+  color: red;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_password1 {
+ width: 100%;
+  position: relative;
+  color: green;
+  text-align: left;
+  display: none;
+}
+
+
+#messaggio_passwordOk0 {
+  width: 100%;
+  position: relative;
+  color: red;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_passwordOk1 {
+ width: 100%;
+  position: relative;
+  color: green;
+  text-align: left;
+  display: none;
+}
+
+
+#buttons {
+  height: auto;
+  width:  20%;
+  color:#000;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 20px;
+  padding: 20px;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 95%;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+#termini {
+  height: 100%;
+  width: 80%;
+  margin-top: 4%;
+  margin-left: 8%; 
+  box-sizing: border-box;
+  position: relative;
+}
+
+#termini_img {
+  width: 45px;
+  height: 45px;
+  float: left;
+  display: block;
+  margin: 15px;
+}
+
+#termini p {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+#registrati { 
+  width: 100%; 
+  margin-right: 950px;
+  position: relative;
+}
+
+/**********************************************************/
+ /*------------------FOOTER--------------------------------/
+/*********************************************************/
+footer {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #f0ffff;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  float: left;
+}
+
+.contatti {
+  width: 70%;
+  height: 100%;
+  margin-left: 25%; 
+}
+
+.info {
+  width: 30%; 
+  text-align: justify;
+  float: left;
+  display: block; 
+  position: relative;
+}
+
+.info h2 {
+  margin-left: 4%; 
+}
+
+.info a {
+  text-decoration-line: none; 
+  color: green; 
+}
+
+
+.info a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: green; 
+  color: green; 
+}
+
+.footer_img {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer_img  img{
+  width: 5%; 
+  height: 7%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 28%; 
+  margin-bottom: 2%; 
+  display: block;
+  float: left; 
+}
+
+.footer_img h2{
+  width: 60%;
+  height: auto;
+  margin-left: 1%;
+  margin-bottom: 1%; 
+  display: block; 
+  float: left;  
+}
+
+.footer_img h3 {
+  width: 70%;
+  display: block;
+  float: left;
+  margin-left: 28%;
+}
+
+.footer_img a {
+  text-decoration-line: none;
+  color: green; 
+}
+
+
+.footer_img a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: green; 
+  color: green; 
+}
+
+.social {
+  width:20%;
+  height: auto;
+  display: block; 
+  float: left ;
+  margin-left: 7%;
+
+}
+
+.social img {
+  width: 30%; 
+  height: 30%;
+  margin: 2%; 
+  display: block;
+  float: left; 
+}
+
+/**********************************************************/
+ /*--------------------- HOME----------------------------*/
+/*********************************************************/
+#zona_Gioco {
+  width: 100%; 
+  height: 100%; 
+  display: block; 
+  float: left; 
+  margin-bottom: 5%;
+}
+
+#orariopartita  {
+  width: 65%; 
+  margin-left: 10%;
+  float: left; 
+}
+ 
+#nomeutente {
+  display: none;
+}
+
+#orariopartita  h3 {
+  float: left;  
+  box-sizing: border-box;
+  border: 2px solid darkblue;
+  padding: 2%;  
+  border-radius: 10px; 
+  Text-transform: uppercase; 
+  background-color: white;
+}
+
+#zona_Gioco button { 
+  width: 10%; 
+  height: 10%; 
+  padding: 20px; 
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block; 
+  float: left;
+  position: relative;  
+}
+
+#acquisto {
+  float: left;
+  width: 10%;
+  margin-left: 40%; 
+  margin-top: 1%;  
+}
+ 
+#acquisto button {
+  width: 100%; 
+  height: 100%; 
+  padding: 20px; 
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block; 
+  float: left;
+  position: relative; 
+}
+
+
+#zona_Gioco_info { 
+  width: 90%; 
+  height: auto;
+  float: left;
+  margin-left: 10%;
+}
+
+#montepremi { 
+  width: 100%; 
+  height: 30%;
+  display: block;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;   
+  padding: 3%;  
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px ridge darkblue;
+  border-radius: 5px;
+}
+
+#vincitori { 
+  width: 100%; 
+  height: 30%;
+  display: block;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;   
+  padding: 3%;  
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px ridge darkblue;
+  border-radius: 5px;
+}
+
+#infoutente { 
+  width: 25%;
+  height: auto;
+  float: left;
+  display: block;
+  margin-top: 2%;  
+
+}
+
+#tabellamici { 
+  width: 100%; 
+  height: 30%;
+  display: block;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;   
+  padding: 5%;  
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  border: 2px ridge darkblue;
+  border-radius: 5px;
+}
+
+#tabellamici img { 
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin-right: 1%; 
+  margin-left: 1%; 
+  float: left;
+}
+
+
+#tabellamici h4 {
+  margin-left: 5%;
+  width: 80%; 
+  display: block;
+  float: left;
+
+}
+
+#info { 
+  width: 17%;
+  height: auto; 
+  margin-top: 1%;
+  margin-left: 1%; 
+  box-sizing: border-box;
+  border: 2px solid darkblue; 
+  float: left;
+  background-color: white;
+  border-radius: 5px;
+ }
+
+#info p { 
+  width: auto;
+  font-size: medium;
+  color: black; 
+  float: left;
+  margin-left: 5%; 
+
+}
+
+ #utenti { 
+  width: 25%;
+  height: 20%;
+  display: block; 
+  float: left;
+  margin-right: 3%; 
+ }
+
+ #moneta { 
+  width: 10%;
+  height: 15%;
+  display: block; 
+  float: left;
+  margin-right: 3%; 
+ }
+ 
+
+#Zona_Gioco_Cartella { 
+  width: 80%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin-left: 5%; 
+} 
+
+#gioca { 
+  font-size: 20px; 
+  margin-left: 5%; 
+}
+
+#Zona_Gioco_Cartella button  {
+  width: 15%; 
+  height: 15%; 
+  padding: 20px 20px 25px 20px ; 
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block; 
+  float: left;
+  position: relative; 
+  background-color: #00b300;  
+  margin-top: 2%; 
+  margin-left: 42%; 
+}
+
+#Cartellina {
+  width: 50%;
+  height: 100%;  
+  float: left;
+  margin-left: 20%;   
+}
+
+.cartellina {
+  width: 11.1%;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+
+.cartellina input[type="button"] { 
+  width: 100%;   
+  height: 80px;
+  margin: 0px; 
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid black ;
+  float: left;
+  font-size: 20px;
+  background-color: white;
+}
+
+.cartellina input[type="text"] { 
+  width: 100%;  
+  height: 80px;
+  margin: 0px; 
+  position: relative;
+  box-sizing: border-box;
+  border: 2px solid black ;
+  float: left;
+}
+
+#tabellone { 
+  width: 60%;
+  height: auto;
+  float: left; 
+  padding: 1%; 
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left: 10%; 
+  margin-top: 2%; 
+  border: 3px solid darkblue; 
+  background-color: white;
+}
+
+#ultimoestratto { 
+  width: 90%;
+  height: auto;
+  float: left;
+  margin-left: 10%;  
+}
+
+#ultimoestratto h2 {
+  margin-left: 20%; 
+}
+
+#ultimoestratto div {
+  width: 10%;
+  height: 10%;
+  padding: 2%;
+  margin-left: 40%; 
+  margin-bottom: 5%; 
+}
+
+ .estratto { 
+   width: 6%; 
+   height: 6%;
+   background-color:#ffd700;
+   font-size: 12pt; 
+   box-sizing: border-box;
+   border: 1px solid black; 
+   float: left;
+   display: block; 
+   margin-left: 1%; 
+   margin-bottom: 1%;
+   border-radius: 10px;
+   padding: 1%;
+   text-align: center;
+ }
+ 
+  #Zona_Gioco_bottoni { 
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-left: 45%; 
+    margin-bottom: 10%;
+    margin-top: 1%; 
+  }
+
+   #cinquina { 
+     width: 35%;
+     height: auto; 
+     text-align: center;
+     padding: 5%; 
+     background-color: #00b300;
+     box-sizing: border-box;
+     border-radius: 8%;
+   }
+
+   #bingo { 
+    width: 35%;
+    height: auto; 
+    text-align: center;
+    padding: 5%; 
+    background-color: #00b300;
+    box-sizing: border-box;
+    border-radius: 8%;
+    margin-left: 1%; 
+  }
+    
+  
+/**********************************************************/
+ /*-----------------IMPOSTAZIONI----------------------------*/
+/*********************************************************/
+.cambia_credenziali {
+  width: 95%;
+  height: 100%;
+  display: block; 
+  float: left;
+  margin: 2%;
+
+}
+
+.cambia_credenziali img {
+  width: 5%;
+  height: 5%;
+  display: block; 
+  float: left;
+  margin: 1%; 
+}
+
+.cambia_credenziali p { 
+  font-size: 14pt;
+}
+
+.cambia_credenziali input[type="submit"] { 
+  width: 15%; 
+  height: 15%; 
+  padding: 20px; 
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block; 
+  float: left;
+  position: relative;
+  margin: 2%; 
+}
+
+.cambia_credenziali input[type="button"] { 
+  width: 15%; 
+  height: 15%; 
+  padding: 20px 20px 25px 20px ; 
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: block; 
+  float: left;
+  position: relative;
+  margin: 2%; 
+  background-color: #00b300;;
+}
+
+
+.cambia { 
+  width: 90%;
+  height: 100%;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  margin: 2%; 
+  background-color: white;
+  border: 2px solid darkblue; 
+}
+
+#messaggio_password0I {
+  width: 100%;
+  position: relative;
+  color: red;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_password1I {
+ width: 100%;
+  position: relative;
+  color: green;
+  text-align: left;
+  display: none;
+}
+
+
+#messaggio_passwordOk0I {
+  width: 100%;
+  position: relative;
+  color: red;
+  text-align: left;
+  display: none;
+}
+
+#messaggio_passwordOk1I {
+ width: 100%;
+  position: relative;
+  color: green;
+  text-align: left;
+  display: none;
+}
+
+
+/************************************************************/
+/*---------------------  COME SI GIOCA  -------------------*/
+/************************************************************/
+.comesigioca { 
+  text-align: justify;
+  font-size: 14pt;
+  margin: 2%; 
+  box-sizing: border-box;
+  border: 2pt solid darkblue; 
+  padding: 2%; 
+  background-color: white;
+  border-radius: 5px;
+}
+
+.comesigioca img { 
+  width: 60%; 
+  height: 60%; 
+  box-sizing: border-box;
+  border: 2pt solid black; 
+}
+
+.comesigioca ul { 
+  list-style-type: disc;
+}
+
+.titolo_gioca { 
+  font-size: 1.5em;
+  margin-left: 2%;
+  text-align: center;
+}
+
+/**********************************************************/
+ /*gestione dei input errati nella form con html5 - css 3*/
+/*********************************************************/
+ .okay {
+  background-image: none;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.okay input {
+  background-image:url("../immagini/ok1.png");
+  background-color: #ccffcc;
+  background-position: right center;
+  background-repeat: no-repeat;
+  border-color: green;
+  box-shadow: none;
+}
+
+.error {
+ background-image: none;
+ box-sizing: border-box;
+ display: block;
+}
+
+ .error input {
+ background-image: url("../immagini/error.png");
+ background-position: right center;
+  background-color: rgba(255,0,0,0.1);
+  background-repeat: no-repeat;
+  border-color: red;
+  box-shadow: none;
+  padding: 10px;
+
+}
+
+ .okayDate {
+  background-image: none;
+  box-sizing: border-box;
+  display: block;
+}
+
+
+.okayDate input[type=date] {
+  background-color: #ccffcc;
+  border-color: green;
+  box-shadow: none;
+  padding: 10px;
+}
+
+
+.errorDate {
+ background-image: none;
+ box-sizing: border-box;
+ display: block;
+}
+
+ .errorDate input[type=date] {
+  background-color: rgba(255,0,0,0.1);
+  border-color: red;
+  box-shadow: none;
+  padding: 10px;
+
+}
+
+/*gestione del bottone disabilitato */
+button:disabled {
+  background-color: #808080;
+  background-image: none;
+}
+
+button:enabled {
+  background-color: #00b300; 
+}
