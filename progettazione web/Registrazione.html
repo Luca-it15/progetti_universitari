@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+ <html lang = "it">
+ <head>
+  <link rel="shortcut icon" href="./immagini/B.jpeg" class="head_logo">
+   <title>Registrazione - Bingo!</title>
+    <meta charset="UTF-8">
+  <meta name="author" content="registrazione">
+  <meta name="Bingo!" lang="it" content="gioco">
+  <link rel="stylesheet" href="./stili/Bingo.css" media="screen">
+ </head>
+ <body>
+ 	<header>
+ 		<img src="./immagini/BingoLogo.png" class="logo" alt="logo sito">
+ 	</header>
+  <div class="container">
+  	<div class="registrazione">
+      <div class="benvenuti_registrazione">
+        <div class="benvenuti_registrazione_titolo">
+       <h1> Benvenuti nella pagina di registrazione!</h1>
+        <h3>Registrati subito e ottieni 10 monete per iniziare subito a giocare!</h3>
+        </div>
+        <h3>Sei gi&aacute; registrato? </h3>
+          <form action="index.html">
+        <button id="login" value="Login">Login!</button></form> 
+         <h3>Compila i campi sottostanti per poterti registrare!<br>
+             Il nome utente non deve contenere i seguenti caratteri: punto, virgola, i backslash e qualunque parentesi. <br>
+             Una volta scelto, il nome utente non potr&aacute; essere cambiato!<br>
+             -Per registrarsi è neccessario essere maggiorenni-</h3>
+        </div> 
+    <form action="php/registrautente.php" name="form_registrazione" method="post" >
+         <label> 
+            * Nome Utente: <br>
+             <input name="username_registrazione" id="username" type="text" placeholder="Es: Mario15" required > 
+         </label>
+            <div id="messaggio_username0">
+             <p> Il nome utente non &eacute; valido </p>
+            </div>
+            <div id="messaggio_username1">
+             <p> Il nome utente &eacute; valido </p>
+           </div>
+        <label>
+              Nome: <br> 
+            <input name="name" id="nome"  type="text" placeholder="Es: Mario"><br>
+          </label>
+          <label>
+               Cognome: <br>
+            <input name="surname" id="cognome" type="text" placeholder="Es: Rossi">
+          </label>
+          <label>
+            * Data di Nascita:<br>
+            <input  id="data"  name="birthDate" type="date" required><br>
+          </label>
+            <div id="messaggio_date0">
+             <p> Devi essere maggiorenne per registrarti! </p>
+            </div>
+            <div id="messaggio_date1">
+             <p> La data è valida </p>
+           </div>
+            <label>
+            * E-mail: <br>
+            <input name="email" id="email" type="email" placeholder="Es: mario.rossi@gmail.com" 
+            required ><br>
+          </label>
+          <h4>Inserire una password con caratteri alfanumerici e con pi&ugrave; di 6 caratteri </h4>
+        <label>
+            * Password: <br>
+            <input name="password" id="password" type="password" required  ><br>
+          </label>
+          <div id="messaggio_passwordOk0">
+            <p> Password troppo semplice </p>
+          </div>
+          <div id="messaggio_passwordOk1">
+           <p> Password sicura </p>
+          </div>
+          <label>
+            * Conferma Password: <br>
+            <input name="repassword" id="conf_password"  type="password" required ><br>
+          </label>
+          <div id="messaggio_password0">
+          	<p> Le password inserite non sono uguali </p>
+          </div>
+          <div id="messaggio_password1">
+          	<p> Le password inserite sono uguali </p>
+          </div>
+          <label id="avviso"> <br>
+          	 * campi obbligatori 
+           </label>
+             <img src="./immagini/termini0.jpeg" id="termini_img" alt="termini e condizioni" >
+            <div id="termini">
+             <p>Accetta i termini e condizioni per poterti registrare! Leggili 
+             <a href="Termini_condizioni.html" target="_blank">Qui!</a></p>
+           </div>     
+            <button id="buttons" name="bottone_sottometti" type="button" 
+            disabled>
+           Registrati!</button>
+          </form> 
+       </div>
+    <script  src="./js/GestoreRegistrazione.js"></script> 
+    <footer>
+      <div class="footer_img">
+     <img src="immagini/fire.png" alt="fuoco"> 
+    <h2>-POWERED BY LUCA CHIOCCHETTI-</h2>
+      <h3>Non sai come si gioca? Clicca <a href="Comesigioca.html" target="_blank">qui!</a></h3>
+    </div>
+    <article class="contatti">
+      <div class="info">
+      <h2>Contatti:</h2>
+      <ul>
+      <li><label>Email:</label>
+      <p><a href="mailto:chiocchettiluca15@gmail.com">chiocchettiluca15@gmail.com</a></p></li>
+      <li><label>Numero di telefono:</label><p>345***7387</p></li>
+      </ul>
+      </div>
+      <aside class="social">
+         <h3>Seguiteci anche sui Social!</h3>
+        <a href="https://www.facebook.com/" target="_blank" ><img src="immagini/Facebook.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank" ><img src="immagini/instagram.jpg" alt="instagram"></a>
+      </aside>
+   </article>
+   </footer>
+  </div>
+ </body>
+</html>
+
+

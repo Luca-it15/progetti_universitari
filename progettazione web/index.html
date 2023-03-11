@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+ <html lang="it">
+ <head>
+  <link rel="shortcut icon" href="./immagini/B.jpeg" class="head_logo">
+   <title>Login - Bingo!</title>
+    <meta charset="UTF-8">
+  <meta name="author" content="Login">
+  <meta name="Bingo!" lang="it" content="gioco">
+  <link rel="stylesheet" href="./stili/Bingo.css" media="screen">
+ </head>
+ <body>
+  <div class="container">
+   <div class="login_container">
+    <div class="benvenuti_login">
+ 	 <img src="./immagini/BingoLogo.png" alt="logo sito" class="login">
+ 	 <h2>Benvenuti in Bingo!</h2>
+ 	<p><strong>Gioca al bingo online, sfida i tuoi amici e vinci fantastici montepremi!</strong></p>
+   </div>
+   <div class="login_form">
+ 	 <form action="php/autenticalogin.php"  method="post" name="form_login" target="_self">
+ 	  <label>
+ 	  	<strong>NOME UTENTE</strong> <br>
+        <input name="username_login" type="text" placeholder="Nome Utente" required 
+         oninvalid="this.setCustomValidity('inseresci il nome utente')"
+         onchange="this.setCustomValidity('') ">
+ 	  </label>
+ 	  <label>
+ 	  <strong>PASSWORD</strong><br> 
+        <input name="Password_login" type="password" placeholder="Password" required  
+        oninvalid="this.setCustomValidity('inseresci la password')" 
+        onchange="this.setCustomValidity('') ">
+ 	  </label>
+    <button name="login_effettuato" id="login_buttons" type="submit">Accedi</button>
+    </form> 
+      <h4> - OPPURE - </h4>
+    <form action="Registrazione.html"><button name="nuovoAccount" id="login_newAccount" type="submit">
+      Registrati!</button></form>
+    </div>
+  </div>
+   <footer>
+     <div class="footer_img">
+    <img src="immagini/fire.png" alt="fuoco"> 
+   <h2>-POWERED BY LUCA CHIOCCHETTI-</h2>
+     <h3>Non sai come si gioca? Clicca <a href="Comesigioca.html" target="_blank">qui!</a></h3>
+   </div>
+   <article class="contatti">
+     <div class="info">
+     <h2>Contatti:</h2>
+     <ul>
+     <li><label>Email:</label>
+     <p><a href="mailto:chiocchettiluca15@gmail.com">chiocchettiluca15@gmail.com</a></p></li>
+     <li><label>Numero di telefono:</label><p>345***7387</p></li>
+     </ul>
+     </div>
+     <aside class="social">
+        <h3>Seguiteci anche sui Social!</h3>
+       <a href="https://www.facebook.com/" target="_blank" ><img src="immagini/Facebook.png" alt="Facebook"></a>
+       <a href="https://www.instagram.com/" target="_blank" ><img src="immagini/instagram.jpg" alt="instagram"></a>
+     </aside>
+  </article>
+  </footer>
+ </div>
+</body>
+</html>
